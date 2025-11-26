@@ -3,11 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Test-time Adaptation for Foundation Medical Segmentation Model without Parametric Updates">
-  <meta name="keywords" content="Small Data, Domain Generalization, Bayesian Networks">
+        content="Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need">
+  <meta name="keywords" content="Large Language Models, Lossless Image Compression, Next-Pixel Prediction">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Test-time Adaptation for Foundation Medical Segmentation Model without Parametric Updates</title>
-
+  <title>Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -51,8 +50,8 @@
           More Research
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://github.com/tonyckc/SDDG/">
-            Test-time Adaptation for Foundation Medical Segmentation Model without Parametric Updates
+          <a class="navbar-item" href="https://github.com/tonyckc/P2LLM/">
+            Large Language Models for Lossless Image Compression
           </a>
         </div>
       </div>
@@ -67,43 +66,44 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Test-time Adaptation for Foundation Medical Segmentation Model without Parametric Updates<br>
+          <h1 class="title is-1 publication-title">Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need<br>
             <small>
-              <span style="font-size: 60%;">International Conference on Computer Vision (ICCV) 2025</span>
+              <span style="font-size: 60%;">arXiv 2024</span>
             </small>
           </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://tonyckc.github.io/">Kecheng Chen</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://scholars.cityu.edu.hk/en/persons/xinyuluo8/">Xinyu Luo</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://wonderseven.github.io/">Tiexin Qin</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://scholars.cityu.edu.hk/en/persons/jliu288/">Jie Liu</a><sup>1</sup>,</span>
+              <a href="https://pingpingzhang.com/">Pingping Zhang</a><sup>2</sup>,</span>
             <span class="author-block">
               <a href="https://scholars.cityu.edu.hk/en/persons/liuhui3/">Hui Liu</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://oncology.med.hku.hk/en/Our-Team/Academic-Staff/Professor-Victor-Ho-fun-LEE/Professor-Victor-Ho-fun-LEE-Profile/">Victor Ho Fun Lee,</a><sup>2</sup>
-            </span>
+              <a href="https://scholars.cityu.edu.hk/en/persons/jliu288/">Jie Liu</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://www.ee.cityu.edu.hk/~hpyan/">Hong Yan,</a><sup>1</sup>
-            </span>
+              <a>Yibing Liu</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a>Jiaxin Huang</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cs.cityu.edu.hk/~shiqwang/">Shiqi Wang</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.ee.cityu.edu.hk/~hpyan/">Hong Yan</a><sup>1</sup>,</span>
             <span class="author-block">
               <a href="https://hlli1991.github.io/">Haoliang Li</a><sup>1</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup> Department of Electrical Engineering and the CIMDA, City University of  Hong Kong</span><br>
-            <span class="author-block"><sup>2</sup> Department of Clinical Oncology, The University of  Hong Kong</span><br>
+            <span class="author-block"><sup>1</sup> Department of Electrical Engineering and the CIMDA, City University of Hong Kong</span><br>
+            <span class="author-block"><sup>2</sup> Department of Computer Science, City University of Hong Kong</span><br>
+            <span class="author-block"><sup>3</sup> Mohamed bin Zayed University of Artificial Intelligence</span><br>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2504.02008"
+                <a href="https://arxiv.org/pdf/2411.12448"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -115,13 +115,14 @@
               <!-- Code Link. -->
               <span class="tooltip">
               <span class="link-block">
-                <a href="https://github.com/tonyckc/TTA-DAL-CRF"
+                <a href="https://github.com/tonyckc/P2-LLM"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
                   </a>
+              </span>
               <!--/ Code Link. -->
             </div>
 
@@ -138,7 +139,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <div style="text-align: center;">
-          <img src="assets/framework-tta.PNG" alt="Figure 1"  width="100%"/>
+          <img src="assets/framework-p2llm.png" alt="Figure 1"  width="100%"/>
         </div>
       </div>
     </div>
@@ -150,17 +151,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Foundation medical segmentation models, with MedSAM being the most popular, have achieved promising performance across organs and lesions. However,
-MedSAM still suffers from compromised performance
-on specific lesions with intricate structures and appearance, as well as bounding box prompt-induced perturbations. Although current test-time adaptation (TTA) methods for medical image segmentation may tackle this
-issue, partial (e.g., batch normalization) or whole parametric updates restrict their effectiveness due to limited update signals or catastrophic forgetting in large models. Meanwhile, these approaches ignore the computational complexity during adaptation, which is particularly significant for modern foundation models. To this
-end, our theoretical analyses reveal that directly refining image embeddings is feasible to approach the same goal
-as parametric updates under the MedSAM architecture, which enables us to realize high computational efficiency and segmentation performance without the risk
-of catastrophic forgetting. Under this framework, we propose to encourage maximizing factorized conditional
-probabilities of the posterior prediction probability using a proposed distribution-approximated latent conditional random field loss combined with an entropy minimization loss. Experiments show that we achieve about
-3% Dice score improvements across three datasets while
-reducing computational complexity by over 7 times.
-
+            We have recently witnessed that "Intelligence" and "Compression" are the two sides of the same coin, where the language large model (LLM) with unprecedented intelligence is a general-purpose lossless compressor for various data modalities. This attribute particularly appeals to the lossless image compression community, given the increasing need to compress high-resolution images in the current streaming media era. Consequently, a spontaneous envision emerges: Can the compression performance of the LLM elevate lossless image compression to new heights? However, our findings indicate that the naive application of LLM-based lossless image compressors suffers from a considerable performance gap compared with existing state-of-the-art (SOTA) codecs on common benchmark datasets. In light of this, we are dedicated to fulfilling the unprecedented intelligence (compression) capacity of the LLM for lossless image compression tasks, thereby bridging the gap between theoretical and practical compression performance. Specifically, we propose P²-LLM, a next-pixel prediction-based LLM, which integrates various elaborated insights and methodologies, e.g., pixel-level priors, the in-context ability of LLM, and a pixel-level semantic preservation strategy, to enhance the understanding capacity of pixel sequences for better next-pixel predictions. Extensive experiments on benchmark datasets demonstrate that P²-LLM can beat SOTA classical and learned codecs.
           </p>
         </div>
       </div>
@@ -169,7 +160,7 @@ reducing computational complexity by over 7 times.
 
     <!-- Paper video. -->
     <div class="column is-centered has-text-centered">
-      <h2 class="title is-3">Visualization with iterations</h2>
+      <h2 class="title is-3">Performance Comparison</h2>
     </div>
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -177,12 +168,10 @@ reducing computational complexity by over 7 times.
           <div class="hero-body">
             <div class="container">
                 <div style="text-align: center;">
-                  <img src="assets/performance-tta-dal-crf.PNG" alt="Figure 1"  width="100%"/>
+                  <img src="assets/comparison-results.png" alt="Figure 2"  width="100%"/>
                 </div>
                 <div class="content has-text-justified">
-                  <p> Visulized process of latent refinement with iterations. The first, second, and third rows denote the segmentation result, corresponding visualization of
-channel-average refined latent embedding and corresponding
-DAL-CRF loss for each spatial position. </p>
+                  <p> Comparison of different lossless image compressors for bit-per-subpixel (bpsp↓) on CLIC.m dataset. Classical compressors include PNG, WebP, FLIF, and JPEG-XL. P²-LLM achieves 2.08 bpsp, outperforming SOTA classical and learned codecs. </p>
                 </div>
             </div>
           </div>
@@ -200,12 +189,11 @@ DAL-CRF loss for each spatial position. </p>
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{kecheng2025ICCV,
-  title={Test-time Adaptation for Foundation Medical Segmentation Model without
-Parametric Updates},
-  author={Kecheng Chen, Xinyu Luo, Tiexin Qin, Jie Liu, Hui Liu,Victor Ho Fun Lee, Hong Yan, and Haoliang Li},
-  conference={International Conference on Computer Vision},
-  year={2025},
+    <pre><code>@article{chen2024p2llm,
+  title={Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need},
+  author={Kecheng Chen and Pingping Zhang and Hui Liu and Jie Liu and Yibing Liu and Jiaxin Huang and Shiqi Wang and Hong Yan and Haoliang Li},
+  journal={arXiv preprint arXiv:2411.12448},
+  year={2024}
 }</code></pre>
   </div>
 </section>
@@ -214,15 +202,6 @@ Parametric Updates},
 
 <footer class="footer">
   <div class="container">
-<!--     <div class="content has-text-centered"> -->
-<!--       <a class="icon-link"
-         href="https://camera.pku.edu.cn/Publication.htm">
-        <i class="fas fa-file-pdf"></i>
-      </a> -->
-<!--       <a class="icon-link" href="https://github.com/tonyckc" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a> -->
-<!--     </div> -->
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
@@ -233,7 +212,7 @@ Parametric Updates},
           </p>
           <p>
             This means you are free to borrow the <a
-              href="https://github.com/tonyckc/WT-PSE">source code</a> of this website,
+              href="https://github.com/tonyckc/P2-LLM">source code</a> of this website,
             we just ask that you link back to this page in the footer. Some of the source code of this 
             website is borrowed from <a href="https://nerfies.github.io">nerfies</a> and <a href="https://dorverbin.github.io/refnerf/">Ref-NeRF</a>.
           </p>

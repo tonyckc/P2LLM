@@ -1,14 +1,14 @@
 # TTA-DAL-CRF
 
-This repository contains the source code for the project page of [TTA-DAL-CRF](https://tonyckc.github.io/Test-time-Adaptation-for-Foundation-Medical-Segmentation-Model-Without-Parametric-Updates/).
+This repository contains the source code for the project page of [P2LLM](https://tonyckc.github.io/P2LLM/).
 
-If you find TTA-DAL-CRF useful for your work please cite:
+If you find P2LLM useful for your work please cite:
 ```
-@article{kecheng2025ICCV,
-  title={Test-time Adaptation for Foundation Medical Segmentation Model without Parametric Updates},
-  author={Kecheng Chen, Xinyu Luo, Tiexin Qin, Jie Liu, Hui Liu, Victor Ho Fun Lee, Hong Yan, and Haoliang Li},
-  conference={International Conference on Computer Vision 2025},
-  year={2025},
+@article{kecheng2025NIPS,
+ title={Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need},
+  author={Kecheng Chen and Pingping Zhang and Hui Liu and Jie Liu and Yibing Liu and Jiaxin Huang and Shiqi Wang and Hong Yan and Haoliang Li},
+  journal={NeurIPS},
+  year={2025}
 }
 ```
 

@@ -1,4 +1,4 @@
-# TTA-DAL-CRF
+# P2LLM
 
 This repository contains the source code for the project page of [P2LLM](https://tonyckc.github.io/P2LLM/).
 
